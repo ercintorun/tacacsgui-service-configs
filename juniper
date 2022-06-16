@@ -1,0 +1,3 @@
+service = junos-exec {
+		set local-user-name = SU
+	}
