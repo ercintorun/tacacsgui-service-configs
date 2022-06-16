@@ -1,0 +1,7 @@
+    service = shell {
+        default command = permit
+        default attribute = permit
+        set priv-lvl = 15
+        set shell:roles = "\"network-admin vdc-admin\""
+        set shell:tasks = "#cisco-support; #root-system"
+    }
